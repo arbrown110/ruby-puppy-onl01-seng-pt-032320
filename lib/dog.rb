@@ -4,8 +4,14 @@ class Dog
   
   def intialize (name)
     @name = name
+    save << self
   end
+  def self.all
+    @@all
+  end
+  def 
   
+end  
     
     
     
